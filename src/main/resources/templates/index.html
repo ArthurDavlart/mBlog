@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
     <head>
         <title>mBlog</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     </head>
     <body>
         <h1>My blog</h1>
+        <p th:text="'Привет, ' + ${title} + '!'"/>
     </body>
 </html>

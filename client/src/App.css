@@ -1,0 +1,55 @@
+
+
+.App {
+}
+
+.App-header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.App-header .site-name {
+}
+
+.App-header .site-name a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.content {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pre-paper {
+    width: 300px;
+    margin: 12px 0;
+}
+
+.pre-paper .pre-pare-img {
+    display: block;
+    background-color: antiquewhite;
+    margin: 0;
+    min-height: 320px;
+}
+
+.pre-paper .description{
+    /*Поменять цвет на серо темный*/
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+.pre-paper .description .header{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pre-paper .description .annotations{
+    color: darkgrey;
+}
